@@ -2,6 +2,15 @@
 
 ## no auto generate yet
 
-solc --abi temp/xxx.sol -o build
+solc --abi temp/GeneratedInterface.sol -o build
 cd build
-abigen --abi xxx.abi --pkg yyy --type yyy --out yyy.go
+abigen --abi GeneratedInterface.abi --pkg yyy --type yyy --out yyy.go
+
+#### notes
+
+head
+
+```solidity
+// SPDX-License-Identifier: GPL-3.0-or-later
+pragma solidity ^0.8.0;
+```
