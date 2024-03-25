@@ -14,3 +14,7 @@ head
 // SPDX-License-Identifier: GPL-3.0-or-later
 pragma solidity ^0.8.0;
 ```
+
+## Next big version:
+
+aave aaveUiPoolDataProviderV3 merge together, use the `aaveUiPoolDataProviderV3Arbitrum`
